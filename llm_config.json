@@ -9,7 +9,7 @@
   },
   "risk": {
     "provider": "litellm",
-    "model": "nvidia_nim/qwen/qwen3-coder-480b-a35b-instruct",
+    "model": "nvidia_nim/meta/llama-3.3-70b-instruct",
     "parameters": {
       "temperature": 0.6,
       "max_tokens": 300
@@ -17,7 +17,7 @@
   },
   "investment": {
     "provider": "litellm",
-    "model": "nvidia_nim/qwen/qwen3-coder-480b-a35b-instruct",
+    "model": "nvidia_nim/deepseek/deepseek-r1",
     "parameters": {
       "temperature": 0.8,
       "max_tokens": 400
