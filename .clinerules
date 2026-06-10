@@ -1,0 +1,24 @@
+You are building a production-grade multi-agent backend system in Python.
+
+STRICT RULES:
+- Never merge agents into one file unless explicitly asked
+- Every agent must be independent module
+- All agents must communicate via structured JSON only
+- No hardcoded logic inside coordinator except orchestration
+- LLM usage only in designated agents (Advisor Agent)
+- Always return clean, typed outputs (no random text)
+- Prefer simple, readable architecture over complex frameworks
+
+ARCHITECTURE RULE:
+Coordinator → Data Collector → Analyzer → Advisor → Notifier
+
+ENGINEERING RULES:
+- Always separate concerns
+- Always design for extensibility
+- Always assume system will scale
+- Add logging for every agent step
+- Handle failure with retry logic (max 2 retries)
+
+OUTPUT RULE:
+- Keep responses structured
+- No unnecessary explanations in code

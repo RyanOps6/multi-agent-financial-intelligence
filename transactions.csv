@@ -1,0 +1,6 @@
+date,type,amount,description
+2023-01-01,income,2500.00,Salary
+2023-01-02,expense,150.00,Groceries
+2023-01-03,expense,75.50,Gas
+2023-01-04,income,500.00,Bonus
+2023-01-05,expense,200.00,Rent
