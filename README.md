@@ -73,7 +73,7 @@ Coordinator → Data Collector → Analyzer → Advisors → Notifier
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/financial-intelligence-system.git
+git clone https://github.com/RyanOps6/financial-intelligence-system.git
 cd financial-intelligence-system
 ```
 
